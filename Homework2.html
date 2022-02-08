@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Posters - Homework 2</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #poster {
+            background-color: #f209a4; 
+            width: 410px; 
+            height: 590px;
+        }
+        .text {
+            display:inline-block;
+            width: 100%;
+            color: white;
+            font-weight: 100;
+        }
+        #text-top {
+            padding-left: 150px;
+            margin-top: 40px;
+        }
+        #text-mid {
+            padding-left: 150px;
+            margin-top: 40px;
+        }
+        h4 {
+            line-height: 1.25;
+            margin: 0px;
+        }
+        h1, .h1 {
+            font-size: 200px;
+            margin: 0px;
+            margin-left: -30px;
+        }
+        #kill {
+            margin-left: 135px;
+            margin-top: -198px;
+            color:rgba(0,0,0,0.5);
+            font-size: 172px;
+            font-weight: bold;
+        }
+        #text-bot {
+            margin-left: 150px;
+            font-size: 12px;
+        }
+        #bikini {
+            margin-top: 160px;
+            font-size: 172px;
+            letter-spacing: 0.6px
+        }
+
+    </style>
+</head>
+<body>
+    <div id="poster">
+        <div class="text" id="text-top">
+            <h4>this sunday, april 25 1993</h4>
+            <h4>noon sharp / $5</h4>
+        </div>
+        <div class="text" id="text-mid">
+            <h4>at macondo cultural center</h4>
+            <h4>hollywood, california</h4>
+        </div>
+        <div class="text">
+            <h1 id="bikini">bikini</h1>
+            <h2 id="kill" class="h1">kill</h2>
+        </div>
+        <div class="text" id="text-bot">
+            <h4>with not for the lack of trying</h4>
+            <h4>plus lather and canopy</h4>
+        </div>
+    </div>
+</body>
+</html>
